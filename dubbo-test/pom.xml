@@ -8,9 +8,9 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-
     <groupId>dubbo-test</groupId>
     <artifactId>dubbo-test</artifactId>
+    <packaging>pom</packaging>
     <dependencies>
         <dependency>
             <groupId>dubbo</groupId>
@@ -31,6 +31,11 @@
                     <groupId>org.slf4j</groupId>
                 </exclusion>
             </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>redis.clients</groupId>
+            <artifactId>jedis</artifactId>
+            <version>2.9.0</version>
         </dependency>
     </dependencies>
     <modules>

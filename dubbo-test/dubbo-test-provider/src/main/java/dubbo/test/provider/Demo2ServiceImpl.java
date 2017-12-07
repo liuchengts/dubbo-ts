@@ -1,7 +1,7 @@
 package dubbo.test.provider;
 
 import com.alibaba.dubbo.config.annotation.Service;
-import dubbo.test.DemoService;
+import dubbo.test.Demo2Service;
 import org.springframework.stereotype.Component;
 
 import java.util.logging.Logger;
@@ -11,9 +11,9 @@ import java.util.logging.Logger;
  */
 @Service
 @Component
-public class DemoServiceImpl implements DemoService {
+public class Demo2ServiceImpl implements Demo2Service {
     @Override
-    public String in() {
-        return "index";
+    public String in2() {
+        return "index2";
     }
 }
