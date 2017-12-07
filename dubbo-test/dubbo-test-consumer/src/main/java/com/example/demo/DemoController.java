@@ -1,6 +1,6 @@
 package com.example.demo;
 
-import com.alibaba.boot.dubbo.annotation.DubboConsumer;
+import dubbo.annotation.DubboConsumer;
 import dubbo.test.DemoService;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
