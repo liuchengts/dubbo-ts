@@ -1,2 +1,0 @@
-dubboconsumerstatics=dubbo.listener.ConsumerInvokeStaticsFilter
-dubboproviderstatics=dubbo.listener.ProviderInvokeStaticsFilter
