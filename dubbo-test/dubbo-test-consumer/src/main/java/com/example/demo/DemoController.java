@@ -25,4 +25,9 @@ public class DemoController {
         index = index + demo2Service.in2();
         return index;
     }
+
+    @RequestMapping("/map")
+    public Object map() {
+        return demoService.getMap();
+    }
 }
